@@ -41,7 +41,7 @@ public class MainActivity extends BeamBaseActivity<com.fuxuemingzhu.findjoy.modu
         super.onCreate(savedInstanceState);
         UmengUpdateAgent.forceUpdate(this);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("豆逼  —  给你纯粹的欢乐");
+        getSupportActionBar().setTitle("找乐  —  给你纯粹的欢乐");
         ButterKnife.bind(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
