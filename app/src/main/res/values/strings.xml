@@ -4,6 +4,7 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">找乐</string>
     <string name="title_activity_big_image">BigImageActivity</string>
+    <string name="title_activity_about_us">关于</string>
     <string name="select">选项</string>
     <string name="copy">将这个段子复制到粘贴板？</string>
     <string name="agree">确定</string>

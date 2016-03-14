@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tool="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+                xmlns:tool="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         style="@style/ToolBarStyle"
         />
+
     <ImageView
         android:id="@+id/logo"
-        android:src="@mipmap/logo"
         android:layout_width="96dp"
         android:layout_height="96dp"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="96dp"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@mipmap/logo"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/logo"
         android:layout_marginTop="16dp"
         android:gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="豆逼 Android "/>
+            android:text="找乐 Android "/>
+
         <TextView
             android:id="@+id/version"
             android:layout_width="wrap_content"
@@ -39,16 +43,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:paddingBottom="16dp"
         android:paddingLeft="56dp"
-        android:paddingRight="56dp"
-        android:paddingBottom="16dp">
+        android:paddingRight="56dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:gravity="center"
             android:autoLink="web"
-            android:text="Jude制作，APP开放源代码于\nhttps://github.com/Jude95/Joy \n仅允许以学习为目的，对程序进行自由修改"/>
+            android:gravity="center"
+            android:text="负雪明烛 制作，APP开放源代码于\nhttps://github.com/fuxuemingzhu/FindJoy \n基于豆逼APP改进，其开放源代码于\nhttps://github.com/Jude95/Joy "/>
     </LinearLayout>
 
 </RelativeLayout>

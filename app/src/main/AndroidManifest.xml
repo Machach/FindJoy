@@ -30,6 +30,11 @@
             android:label="@string/title_activity_big_image"
             android:theme="@style/AppTheme">
         </activity>
+        <activity
+            android:name=".module.setting.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme">
+        </activity>
     </application>
 
 </manifest>
