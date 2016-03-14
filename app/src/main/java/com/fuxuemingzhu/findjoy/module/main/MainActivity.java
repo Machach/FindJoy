@@ -34,11 +34,12 @@ public class MainActivity extends BeamBaseActivity<MainPresenter> {
     @Bind(R.id.tab_layout)
     TabLayout tabLayout;
     private MainPagerAdapter mMainPagerAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("豆逼  —  给你纯粹的欢乐");
+        getSupportActionBar().setTitle(getResources().getString(R.string.app_name) + "  —  给你纯粹的欢乐");
         ButterKnife.bind(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
