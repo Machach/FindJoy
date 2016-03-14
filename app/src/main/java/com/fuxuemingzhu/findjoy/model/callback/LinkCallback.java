@@ -6,31 +6,33 @@ import com.jude.http.RequestListener;
 /**
  * Created by Mr.Jude on 2015/6/13.
  */
-class LinkCallback implements RequestListener {
+public class LinkCallback implements RequestListener {
     private LinkCallback link;
-    public LinkCallback add(LinkCallback other){
+
+    public LinkCallback add(LinkCallback other) {
         other.setLink(this);
         return other;
     }
-    private void setLink(LinkCallback link){
+
+    public void setLink(LinkCallback link) {
         this.link = link;
     }
 
     @Override
     public void onRequest() {
         if (link != null)
-        link.onRequest();
+            link.onRequest();
     }
 
     @Override
     public void onSuccess(String s) {
         if (link != null)
-        link.onSuccess(s);
+            link.onSuccess(s);
     }
 
     @Override
     public void onError(String s) {
         if (link != null)
-        link.onError(s);
+            link.onError(s);
     }
 }

@@ -1,5 +1,7 @@
 package com.fuxuemingzhu.findjoy.module.image;
 
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -7,6 +9,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.fuxuemingzhu.findjoy.R;
 import com.fuxuemingzhu.findjoy.model.bean.ImageJoy;
+import com.fuxuemingzhu.findjoy.module.bigimage.BigImageActivity;
 import com.fuxuemingzhu.findjoy.utils.RecentDateFormat;
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;
 import com.jude.utils.JTimeTransform;
@@ -35,6 +38,14 @@ public class ImageJoyVH extends BaseViewHolder<ImageJoy> {
     public void setData(ImageJoy data) {
         title.setText(data.getTitle());
         Glide.with(getContext()).load(data.getImg()).into(image);
-        time.setText(new JTimeTransform().parse("yyyy-MM-dd hh:mm:ss",data.getCt()).toString(new RecentDateFormat()));
+        image.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("imageUrl", data.getImg());
+            Intent intent = new Intent(getContext(), BigImageActivity.class);
+            intent.putExtras(bundle);
+            getContext().startActivity(intent);
+        });
+
+        time.setText(new JTimeTransform().parse("yyyy-MM-dd hh:mm:ss", data.getCt()).toString(new RecentDateFormat()));
     }
 }

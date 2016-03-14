@@ -7,7 +7,6 @@ import com.fuxuemingzhu.findjoy.R;
 import com.jude.beam.bijection.RequiresPresenter;
 import com.jude.beam.expansion.BeamBaseActivity;
 import com.jude.utils.JUtils;
-import com.umeng.analytics.MobclickAgent;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -32,11 +31,11 @@ public class AboutUsActivity extends BeamBaseActivity<AboutUsPresenter> {
 
     public void onResume() {
         super.onResume();
-        MobclickAgent.onResume(this);
+        //MobclickAgent.onResume(this);
     }
     public void onPause() {
         super.onPause();
-        MobclickAgent.onPause(this);
+        //MobclickAgent.onPause(this);
     }
 
 

@@ -15,7 +15,7 @@ import java.util.HashMap;
 /**
  * Created by Mr.Jude on 2015/8/20.
  */
-public class JoyModel extends AbsModel{
+public class JoyModel extends AbsModel {
 
     public static JoyModel getInstance() {
         return getInstance(JoyModel.class);
@@ -24,15 +24,17 @@ public class JoyModel extends AbsModel{
     @Override
     protected void onAppCreate(Context ctx) {
         super.onAppCreate(ctx);
-        HashMap<String ,String > header = new HashMap<>();
-        header.put("apikey"," c676a989ffe83f89db5265482ef3222d");
+        HashMap<String, String> header = new HashMap<>();
+        header.put("apikey", " c676a989ffe83f89db5265482ef3222d");
         RequestManager.getInstance().setHeader(header);
     }
 
-    public void getTextJoy(int page , DataCallback<TextJoyPage> callback){
+    public void getTextJoy(int page, DataCallback<TextJoyPage> callback) {
         RequestManager.getInstance().post(API.URL.JOY_TEXT, new RequestMap("page", page + ""), callback);
     }
-    public void getImageJoy(int page , DataCallback<ImageJoyPage> callback){
-        RequestManager.getInstance().post(API.URL.JOY_IMAGE,new RequestMap("page",page+""),callback);
+
+    public void getImageJoy(int page, DataCallback<ImageJoyPage> callback) {
+        RequestManager.getInstance().post(API.URL.JOY_IMAGE, new RequestMap("page", page + ""), callback);
     }
+
 }

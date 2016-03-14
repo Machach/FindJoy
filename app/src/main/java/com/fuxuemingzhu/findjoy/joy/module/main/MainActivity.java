@@ -18,8 +18,6 @@ import com.fuxuemingzhu.findjoy.module.setting.AboutUsActivity;
 import com.fuxuemingzhu.findjoy.module.text.TextJoyFragment;
 import com.jude.beam.bijection.RequiresPresenter;
 import com.jude.beam.expansion.BeamBaseActivity;
-import com.umeng.analytics.MobclickAgent;
-import com.umeng.update.UmengUpdateAgent;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -36,10 +34,11 @@ public class MainActivity extends BeamBaseActivity<com.fuxuemingzhu.findjoy.modu
     @Bind(R.id.tab_layout)
     TabLayout tabLayout;
     private MainPagerAdapter mMainPagerAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        UmengUpdateAgent.forceUpdate(this);
+        //UmengUpdateAgent.forceUpdate(this);
         setContentView(R.layout.activity_main);
         getSupportActionBar().setTitle("找乐  —  给你纯粹的欢乐");
         ButterKnife.bind(this);
@@ -104,13 +103,15 @@ public class MainActivity extends BeamBaseActivity<com.fuxuemingzhu.findjoy.modu
 
         return super.onOptionsItemSelected(item);
     }
+
     public void onResume() {
         super.onResume();
-        MobclickAgent.onResume(this);
+        //MobclickAgent.onResume(this);
     }
+
     public void onPause() {
         super.onPause();
-        MobclickAgent.onPause(this);
+        //MobclickAgent.onPause(this);
     }
 
 }
