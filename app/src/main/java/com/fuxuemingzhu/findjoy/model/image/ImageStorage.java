@@ -1,4 +1,4 @@
-package com.fuxuemingzhu.findjoy.model;
+package com.fuxuemingzhu.findjoy.model.image;
 
 import android.content.Context;
 import android.content.Intent;
