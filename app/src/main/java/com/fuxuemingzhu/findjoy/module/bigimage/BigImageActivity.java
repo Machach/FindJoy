@@ -11,6 +11,7 @@ import com.jude.beam.expansion.BeamBaseActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import uk.co.senab.photoview.PhotoViewAttacher;
 
 @RequiresPresenter(BigImagePresenter.class)
 public class BigImageActivity extends BeamBaseActivity<BigImagePresenter> {
@@ -21,11 +22,7 @@ public class BigImageActivity extends BeamBaseActivity<BigImagePresenter> {
     @Bind(R.id.fab_big_image)
     FloatingActionButton fab;
 
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-
+    PhotoViewAttacher mAttacher;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +41,13 @@ public class BigImageActivity extends BeamBaseActivity<BigImagePresenter> {
 
         fab.setOnClickListener(view -> getPresenter().saveImage(imageUrl));
 
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        mAttacher = new PhotoViewAttacher(iv_big_image);
+
+        mAttacher.setOnPhotoTapListener((view, x, y) -> {
+            finish();
+        });
+
+
     }
 
 }
