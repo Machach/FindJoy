@@ -39,7 +39,7 @@ public class MainActivity extends BeamBaseActivity<MainPresenter> {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle(getResources().getString(R.string.app_name) + "  —  给你纯粹的欢乐");
+        getSupportActionBar().setTitle(getResources().getString(R.string.app_name) + "  —  寻找最纯粹的欢乐");
         ButterKnife.bind(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setDisplayShowHomeEnabled(true);

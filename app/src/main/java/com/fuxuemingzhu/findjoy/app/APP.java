@@ -3,6 +3,7 @@ package com.fuxuemingzhu.findjoy.app;
 import android.app.Application;
 
 import com.fuxuemingzhu.findjoy.BuildConfig;
+import com.fuxuemingzhu.findjoy.model.MyActivityLifeCycleDelegate;
 import com.jude.beam.Beam;
 import com.jude.http.RequestManager;
 import com.jude.utils.JUtils;
@@ -20,5 +21,6 @@ public class APP extends Application {
         RequestManager.getInstance().init(this);
         RequestManager.getInstance().setDebugMode(BuildConfig.DEBUG, "JoyNet");
         Beam.init(this);
+        Beam.setActivityLifeCycleDelegateProvider(MyActivityLifeCycleDelegate::new);
     }
 }
