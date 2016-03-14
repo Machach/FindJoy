@@ -12,7 +12,7 @@ import com.jude.easyrecyclerview.adapter.BaseViewHolder;
  * Created by Mr.Jude on 2015/8/20.
  */
 @RequiresPresenter(TextJoyPresenter.class)
-public class TextJoyFragment extends BeamListFragment<TextJoyPresenter,TextJoy> {
+public class TextJoyFragment extends BeamListFragment<TextJoyPresenter, TextJoy> {
     @Override
     protected BaseViewHolder getViewHolder(ViewGroup viewGroup, int i) {
         return new TextJoyVH(viewGroup);

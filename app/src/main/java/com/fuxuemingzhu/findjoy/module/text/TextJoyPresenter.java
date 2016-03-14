@@ -11,8 +11,9 @@ import com.jude.beam.expansion.list.BeamListFragmentPresenter;
 /**
  * Created by Mr.Jude on 2015/8/20.
  */
-public class TextJoyPresenter extends BeamListFragmentPresenter<TextJoyFragment,TextJoy> {
+public class TextJoyPresenter extends BeamListFragmentPresenter<TextJoyFragment, TextJoy> {
     int page = 1;
+
     @Override
     protected void onCreate(TextJoyFragment view, Bundle savedState) {
         super.onCreate(view, savedState);
