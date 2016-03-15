@@ -6,15 +6,18 @@
 
 下载地址：[http://fir.im/axy4](http://fir.im/axy4)  
 
+二维码：![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/%E4%BA%8C%E7%BB%B4%E7%A0%81.png?raw=true)
+
 Fork自 [https://github.com/Jude95/Joy](https://github.com/Jude95/Joy)
 
 ## Screenshot
 
-![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/1.png?raw=true)
+<img src="https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/1.png?raw=true" width="300">
 
-![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/2.png?raw=true)
+<img src="https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/2.png?raw=true" width="300">
 
-![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/3.png?raw=true)
+<img src="https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/3.png?raw=true" width="300">
+
 
 ## Fuctions
 
