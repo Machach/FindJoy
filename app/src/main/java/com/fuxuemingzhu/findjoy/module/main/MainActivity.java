@@ -18,6 +18,7 @@ import com.fuxuemingzhu.findjoy.module.setting.AboutUsActivity;
 import com.fuxuemingzhu.findjoy.module.text.TextJoyFragment;
 import com.jude.beam.bijection.RequiresPresenter;
 import com.jude.beam.expansion.BeamBaseActivity;
+import com.umeng.update.UmengUpdateAgent;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -46,6 +47,9 @@ public class MainActivity extends BeamBaseActivity<MainPresenter> {
         tabLayout.setTabTextColors(getResources().getColor(R.color.whiteTrans80), getResources().getColor(R.color.white));
         viewpager.setAdapter(mMainPagerAdapter = new MainPagerAdapter(getSupportFragmentManager()));
         tabLayout.setupWithViewPager(viewpager);
+
+        UmengUpdateAgent.update(this);
+
     }
 
     public class MainPagerAdapter extends FragmentStatePagerAdapter {
