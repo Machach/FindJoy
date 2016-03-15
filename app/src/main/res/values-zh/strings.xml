@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="UMUpdateCheck">2.7.0.0.20160201</string>
+    <string name="action_settings">设置</string>
+    <string name="agree">确定</string>
+    <string name="app_name">找乐</string>
+    <string name="copy">将这个段子复制到粘贴板？</string>
+    <string name="disagree">取消</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="select">选项</string>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <string name="title_activity_about_us">关于</string>
+    <string name="title_activity_big_image">查看大图</string>
+    <string name="umeng_common_icon">icon</string>
+</resources>

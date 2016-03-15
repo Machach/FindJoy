@@ -2,16 +2,30 @@
 
 找乐APP源码
 
-下载地址：http://www.wandoujia.com/apps/com.jude.joy  
+![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/ic_laucher_192.png?raw=true)
+
+下载地址：[http://fir.im/axy4](http://fir.im/axy4)  
 
 Fork自 [https://github.com/Jude95/Joy](https://github.com/Jude95/Joy)
 
 ## Screenshot
 
-![joy.png](http://img.wdjimg.com/mms/screenshot/2/24/bb2ec85c230a7eeecdc4399bc6892242_320_535.jpeg)
-![joy.png](http://img.wdjimg.com/mms/screenshot/6/f5/3dad64a4c3359af5692072b08cb03f56_320_535.jpeg)
+![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/1.png?raw=true)
 
-## dependencies
+![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/2.png?raw=true)
+
+![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/3.png?raw=true)
+
+## Fuctions
+
+1. 增加复制段子功能
+2. 增加查看大图功能
+3. 增加图片下载功能
+4. 修改App主题配色
+4. 增加友盟统计功能
+5. 增加新版本自动更新
+
+## Dependencies
 
 - [appcompat-v7](https://developer.android.com/tools/support-library/features.html#v7-appcompat)/[cardview-v7](https://developer.android.com/tools/support-library/features.html#v7-cardview)
 - [Beam](https://github.com/Jude95/Beam)
@@ -20,10 +34,21 @@ Fork自 [https://github.com/Jude95/Joy](https://github.com/Jude95/Joy)
 - [requestvolley](https://github.com/Jude95/RequestVolley)
 - [utils](https://github.com/Jude95/Utils)
 - [gson](https://github.com/google/gson)
+- [PhotoView](https://github.com/chrisbanes/PhotoView)
 
 ## API
 
 http://apistore.baidu.com/apiworks/servicedetail/864.html
 
+
+## Licence
+
+> Copyright 2016 fuxuemingzhu
+> 
+> Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+> 
+> `http://www.apache.org/licenses/LICENSE-2.0`
+> 
+> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 
