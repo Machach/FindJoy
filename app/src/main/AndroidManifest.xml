@@ -20,7 +20,7 @@
             android:value="com.fuxuemingzhu.findjoy.model.JoyModel"/>
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="YOUR_KEY"/>
+            android:value="56e6c9e5e0f55a6caf001469"/>
         <meta-data
             android:name="UMENG_CHANNEL"
             android:value="Main Channel"/>
