@@ -4,19 +4,29 @@
 
 ![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/ic_laucher_192.png?raw=true)
 
-下载地址：[http://fir.im/axy4](http://fir.im/axy4)  
+下载地址：
 
-二维码：![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/%E4%BA%8C%E7%BB%B4%E7%A0%81.png?raw=true)
+- 应用宝：[http://android.myapp.com/myapp/detail.htm?apkName=com.fuxuemingzhu.findjoy](http://android.myapp.com/myapp/detail.htm?apkName=com.fuxuemingzhu.findjoy)
+- 豌豆荚：[http://www.wandoujia.com/apps/com.fuxuemingzhu.findjoy](http://www.wandoujia.com/apps/com.fuxuemingzhu.findjoy)
+- Fir.im：[http://fir.im/axy4](http://fir.im/axy4) 
+
+二维码：
+
+应用宝下载：
+![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/yingyongbao.png?raw=true)
+
+豌豆荚下载：
+![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/wandoujia.png?raw=true)
+
+
+Fir.im下载：
+![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/FIR.im.png?raw=true)
 
 Fork自 [https://github.com/Jude95/Joy](https://github.com/Jude95/Joy)
 
 ## Screenshot
 
-<img src="https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/1.png?raw=true" width="300">
-
-<img src="https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/2.png?raw=true" width="300">
-
-<img src="https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/3.png?raw=true" width="300">
+![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/hecheng.png?raw=true)
 
 
 ## Fuctions
