@@ -22,6 +22,13 @@
 Fir.im下载：
 ![](https://github.com/fuxuemingzhu/fuxuemingzhu.github.io/blob/master/images/FindJoy/FIR.im.png?raw=true)
 
+关于本项目的开发记录：
+
+我的博客：[找乐，一个笑话App的制作过程记录](http://www.fuxuemingzhu.com/2016/03/15/Find-Joy/)
+
+CSDN：[【Android开发】找乐，一个笑话App的制作过程记录](http://blog.csdn.net/fuxuemingzhu/article/details/50911245)
+
+
 Fork自 [https://github.com/Jude95/Joy](https://github.com/Jude95/Joy)
 
 ## Screenshot
